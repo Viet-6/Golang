@@ -3,5 +3,7 @@ package main
 func main() {
 	// declareVariable()
 	// dataType()
-	conditional()
+	// conditional()
+	// looping()
+	functionExecute()
 }

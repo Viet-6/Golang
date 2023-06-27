@@ -52,6 +52,21 @@ func switchCondition() {
 		fmt.Println("not know")
 	}
 
+	fmt.Println("switch with Goto:")
+
+	another_num := 1
+
+	switch another_num {
+	case 1:
+		fmt.Print("this num is equal to: ")
+		goto nextNumber
+		fmt.Print(1, "\n")
+	nextNumber:
+		fmt.Print(2, "\n")
+	default:
+		fmt.Print(nil, "\n")
+	}
+
 	fmt.Println("_________________________________")
 }
 
