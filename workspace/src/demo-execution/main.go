@@ -1,5 +1,7 @@
 package main
 
+import "demo-execution/stringslib"
+
 // import "demo-execution/datatype"
 // import "demo-execution/declaration"
 // import arr "demo-execution/array"
@@ -9,10 +11,13 @@ package main
 // import "demo-execution/slice"
 // import "demo-execution/mymap"
 
-import gor "demo-execution/Gorm-demo"
+// import gor "demo-execution/Gorm-demo"
 
 func main() {
 	// declaration.DeclareVariable()
+	// goscope.Goscope()
+	// mathlib.Mathlib()
+	stringslib.Stringslib()
 	// datatype.DataType()
 	// con.Conditional()
 	// loop.Looping()
@@ -21,5 +26,5 @@ func main() {
 	// slice.Slice()
 	// f.VariadicExecute()
 	// mymap.MyMap()
-	gor.GormD()
+	// gor.GormD()
 }
