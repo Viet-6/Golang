@@ -5,5 +5,6 @@ func main() {
 	// dataType()
 	// conditional()
 	// looping()
-	functionExecute()
+	// functionExecute()
+	arrays()
 }

@@ -18,6 +18,14 @@ func swap(a, b int) (int, int) {
 	return b, a
 }
 
+func areaOfSquare(a int) (edge int, area int) {
+	edge = a
+
+	area = edge * edge
+
+	return
+}
+
 func functionExecute() {
 	printHelloWorld()
 	sayHi("V")
@@ -30,4 +38,7 @@ func functionExecute() {
 	fmt.Println("after swap:")
 	fmt.Println(a, b)
 
+	edge, area := areaOfSquare(4)
+
+	fmt.Printf("area of square with edge = %v is : %v", edge, area)
 }
