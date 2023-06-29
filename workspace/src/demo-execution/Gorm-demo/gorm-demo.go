@@ -40,7 +40,6 @@ func GormD() {
 	}
 
 	// createStatement(db)
-	queryData(db)
 
 }
 

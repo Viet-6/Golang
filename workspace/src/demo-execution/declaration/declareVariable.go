@@ -55,4 +55,30 @@ func DeclareVariable() {
 	strs, boolean := "text", true
 
 	fmt.Println(new_name, number100, strs, boolean)
+
+	// Pointer
+	x := 1
+	var y int = 2
+	pt := &x
+	var px *int = &y
+
+	fmt.Println(pt)
+	fmt.Println(*pt)
+
+	fmt.Println(px)
+	fmt.Println(*px)
+
+	// decalre a type
+	type myInt int
+	type myNewInt int
+	var z myInt = 99
+	var c myNewInt = 99
+	fmt.Println(z)
+	fmt.Println(c)
+
+	// Even if the underlying type of myInt and myNewInt is int
+	// you still can not assign or compare above 2 value without parse it to the same type (myNewInt or myInt)
+	// fmt.Println(c == z)
+	// c = z
+
 }
