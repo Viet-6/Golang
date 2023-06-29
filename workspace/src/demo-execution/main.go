@@ -1,7 +1,5 @@
 package main
 
-import "demo-execution/stringslib"
-
 // import "demo-execution/datatype"
 // import "demo-execution/declaration"
 // import arr "demo-execution/array"
@@ -17,7 +15,7 @@ func main() {
 	// declaration.DeclareVariable()
 	// goscope.Goscope()
 	// mathlib.Mathlib()
-	stringslib.Stringslib()
+	// stringslib.Stringslib()
 	// datatype.DataType()
 	// con.Conditional()
 	// loop.Looping()

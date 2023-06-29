@@ -36,7 +36,7 @@ func GormD() {
 		panic("failed to connect database")
 	}
 
-	createStatement(db)
+	// createStatement(db)
 
 }
 
